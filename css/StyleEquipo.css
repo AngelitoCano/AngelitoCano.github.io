@@ -1,0 +1,15 @@
+/* Estilos personalizados para la página del equipo */
+
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  h1.text-center {
+    margin-bottom: 40px;
+  }
+  
