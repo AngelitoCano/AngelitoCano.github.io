@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*inicio de la barra de navegacion/*/
+  .navbar {
+      background-color: #ffffff; /* Color de fondo verde */
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+  .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000000; /* Texto blanco */
+    }
+    
+  .navbar-nav .nav-link {
+      color: #000000; /* Texto blanco */
+    }
+    
+  .navbar-nav .nav-link:hover {
+      color: #0004ff; /* Cambio de color al pasar el ratón */
+      
+    }
+  
+  .container-fluid {
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    color: rgb(139, 0, 0);
+  }
+  
+  /*fin de la barra de navegacion/*/
+
+  /*Botones de whasat y correo _______________________________/*/
+.btn-whatsapp {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    background-color: #25d366; /* Color de fondo de WhatsApp */
+    color: #fff; /* Color del texto */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-whatsapp:hover {
+    background-color: #128c7e; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+  }
+  
+  .btn-whatsapp i {
+    font-size: 30px;
+  }
+  
+  .btn-envelope {
+    position: fixed;
+    bottom: 120px;
+    right: 120px;
+    background-color: #1607e7; /* Color de fondo de WhatsApp */
+    color: #fff; /* Color del texto */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-envelope:hover{
+    background-color: #fffcfc; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+  }
+  
+  .btn-envelope i{
+    font-size: 30px;
+  }
+
+  /*footer/*/
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer a {
+      color: rgb(58, 212, 74);
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  .footer a:hover {
+      text-decoration: underline;
+  }
+  .footer-icons {
+      margin: 10px 0;
+  }
+  .footer-icons i {
+      margin: 0 5px;
+      font-size: 24px;
+  }
