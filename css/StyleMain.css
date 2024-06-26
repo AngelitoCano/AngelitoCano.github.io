@@ -1,0 +1,59 @@
+.blockquote-footer {
+    position: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Opcional: para darle una sombra */
+}
+
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-info div {
+    flex: 1 1 30%; /* Ajusta el ancho de cada div al 30% del contenedor */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+.card-info button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.card-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-info h5 {
+    margin-top: 10px; /* Añade espacio entre la imagen y el texto */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card-info div {
+        flex: 1 1 100%; /* En pantallas más pequeñas, cada div toma el 100% del ancho del contenedor */
+    }
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
